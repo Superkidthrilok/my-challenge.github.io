@@ -1,0 +1,52 @@
+ <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="tutor.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+  <body>
+    
+ <div class="container-1">
+    <h2>Challange 1: Your age in days</h2>
+    <div class="flex-box-container-1">
+        <div>
+            <button class="btn btn-primary" onclick="ageInDays()">Click me</button>
+        </div>
+
+        <div>
+           <button onclick="reset()" class="btn btn-danger">reset</button>
+        </div>
+    </div>
+    <div class="flex-box-container-1">
+        <div id = "flex-box-result"></div>
+    </div>
+ </div>
+ <div class="container-2">
+<h2>Challange 2: cat generator</h2>
+<h2>*hint: refresh to change image*</h2>
+
+
+
+     <div class="flex-box-container-2"> <div>
+         <button class="btn btn-success" onclick="generator()"id="cat-generator"> Generate Cat</button>
+        
+        <button class="btn btn-danger"  onclick="genDelete()" id="deleter">Delete</button></div>
+    </div>
+    <div class="flex-box-container-3-5" id="generater"></div>
+ </div>
+ <div class="container-3" >
+     <h2>Challenge 3: rock, paper, scissors</h2>
+     <button class = " btn btn-primary"onClick=window.location.reload();>Replay</button>
+    <div class="flex-box-rps" id="flex-box-rps-div">
+        <img id="rock" src="https://i.ibb.co/dJ33y51/rock-for-game.png" height="250px" width="250px" alt="" onclick="rpsGame(this)">
+        <img id="paper" src="https://i.ibb.co/vdTmf0M/paper-for-game.png" height="250px" width="250px" alt="" onclick="rpsGame(this)">
+        <img id="scissors" src="https://i.ibb.co/v4d3s0P/361-3618497-scissors-clipart-19-scissors-image-graphic-huge-freebie.jpg" height="250px" width="250px" alt="" onclick="rpsGame(this)">
+    </div>
+ </div>
+  <script src="tutor.js"></script>
+  </body>
+  </html> 
+  
